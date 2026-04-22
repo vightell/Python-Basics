@@ -62,3 +62,27 @@ Problems:
 
 Fix:
 - Corrected loop structure
+  
+## Day 5 – Loops + State + Git
+
+### Task
+Use a for loop to count from 1 to 20.
+
+### What I did
+- Implemented the basic loop from 1 to 20
+- Extended it to loop far beyond the limit (up to 236)
+- Added a secondary variable `j` that:
+  - increments by 3
+  - resets when it reaches 10
+- Added delays using `time.sleep()` to control output speed
+
+### What I learned
+- How `range(start, stop)` works
+- How loops interact with external variables (state)
+- How to create repeating patterns using conditions
+- How timing affects program behavior
+- How to push code to GitHub using add → commit → push
+
+### Reflection
+Started simple, ended up building a looping pattern system.
+Took time, but now I understand loops and Git workflow much better.
