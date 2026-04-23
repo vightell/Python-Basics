@@ -86,3 +86,31 @@ Use a for loop to count from 1 to 20.
 ### Reflection
 Started simple, ended up building a looping pattern system.
 Took time, but now I understand loops and Git workflow much better.
+
+--------
+
+Day 6 — Functions
+What I did:
+Created my first function using def
+Passed a parameter (name) into the function
+Printed dynamic output using the parameter
+Fixed indentation issues to correctly structure the function
+Called the function with a real value ("vightell")
+Ran and pushed the working code to GitHub
+What I learned:
+A function is a reusable block of code that runs only when called
+Parameters act as placeholders for real values
+Indentation defines scope in Python (inside vs outside function)
+Calling a function executes the logic inside it
+"text" (string) is different from a variable name
+Problems:
+Forgot : after def, causing a syntax error
+Initially placed the function call inside the function (nothing executed)
+Confusion between variable vs string when calling the function
+Terminal showed no output, which caused frustration
+Reflection:
+At first, nothing worked and it felt like the code was doing nothing.
+The issue wasn’t complexity—it was structure and placement.
+Once fixed, the function worked instantly.
+This day wasn’t about difficulty, it was about precision.
+Understanding where code belongs matters more than what the code does.
