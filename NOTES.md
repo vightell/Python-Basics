@@ -89,28 +89,34 @@ Took time, but now I understand loops and Git workflow much better.
 
 --------
 
-Day 6 — Functions
-What I did:
-Created my first function using def
-Passed a parameter (name) into the function
-Printed dynamic output using the parameter
-Fixed indentation issues to correctly structure the function
-Called the function with a real value ("vightell")
-Ran and pushed the working code to GitHub
-What I learned:
-A function is a reusable block of code that runs only when called
-Parameters act as placeholders for real values
-Indentation defines scope in Python (inside vs outside function)
-Calling a function executes the logic inside it
-"text" (string) is different from a variable name
-Problems:
-Forgot : after def, causing a syntax error
-Initially placed the function call inside the function (nothing executed)
-Confusion between variable vs string when calling the function
-Terminal showed no output, which caused frustration
-Reflection:
-At first, nothing worked and it felt like the code was doing nothing.
-The issue wasn’t complexity—it was structure and placement.
-Once fixed, the function worked instantly.
-This day wasn’t about difficulty, it was about precision.
-Understanding where code belongs matters more than what the code does.
+## Day 6 — Functions
+
+### What I did:
+- Created my first function using def
+- Passed a name as a parameter into the function
+- Printed dynamic output using that parameter
+- Fixed indentation to separate definition from execution
+- Called the function properly with a string value
+- Ran and pushed the working code to GitHub
+
+### What I learned:
+- Functions store actions and only run when called
+- Parameters are placeholders that receive real values
+- Indentation controls what belongs inside a function
+- Calling a function triggers its behavior
+- Strings ("text") are different from variables
+
+### Problems:
+- Forgot the colon (:) after def, causing a syntax error
+- Placed the function call inside the function, so nothing executed
+- Confused variable vs string when passing the argument
+- Terminal showed no output, which was misleading
+
+### Reflection:
+At first, the code did nothing and it felt broken.
+The issue wasn’t complexity, it was structure and placement.
+
+Once fixed, everything worked instantly.
+
+This day was about control.
+Not writing more code, but placing it correctly.
