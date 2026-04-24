@@ -120,3 +120,29 @@ Once fixed, everything worked instantly.
 
 This day was about control.
 Not writing more code, but placing it correctly.
+
+--------
+## Day 7 — Mini Project (User Input + Function)
+
+### What I did:
+- Built a mini project that asks the user for their name
+- Used input() to capture user data
+- Created a function greet(name)
+- Passed user input into the function
+- Printed a personalized greeting message
+
+### What I learned:
+- input() allows programs to interact with users
+- Functions can take parameters and use external data
+- Code becomes reusable when wrapped inside functions
+- Programs can feel dynamic instead of static
+
+### Problems:
+- Confusion between defining a function and calling it
+- Minor syntax and structure errors while testing
+- Emotional frustration when things didn’t run instantly
+
+### Reflection:
+This was the first time the program responded to *me* instead of just running.
+It felt less like writing instructions and more like creating interaction.
+The shift from static output to user-driven behavior makes the code feel alive.
