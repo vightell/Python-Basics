@@ -145,4 +145,28 @@ Not writing more code, but placing it correctly.
 ### Reflection:
 This was the first time the program responded to *me* instead of just running.
 It felt less like writing instructions and more like creating interaction.
-The shift from static output to user-driven behavior makes the code feel alive.
+The shift from static output to user-output behavior makes the code feel alive.
+
+----------
+## Day 8 — Dictionaries
+
+### What I did:
+- Created my first dictionary using key-value pairs
+- Stored name → age relationships
+- Accessed values using keys
+- Took user input and stored it inside a dictionary
+
+### What I learned:
+- Dictionaries store relationships, not just values
+- Keys are used to access specific data
+- Data can be added dynamically using input
+- Dictionaries are more structured than lists
+
+### Problems:
+- Confusion between {} and []
+- Remembering to use quotes for keys
+- Minor mistakes when accessing values
+
+### Reflection:
+Shifted from storing data to organizing meaning.
+Code feels more structured, not just sequential.
