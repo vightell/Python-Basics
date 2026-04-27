@@ -173,3 +173,34 @@ Code feels more structured, not just sequential.
 
 --------
 ## Chain Day — I showed up.
+
+--------
+
+## Day 8 — Dictionaries
+
+### What I did:
+- Created dictionaries using {}
+- Stored key → value pairs (name → age, object → meaning)
+- Took user input and saved it inside a dictionary
+- Accessed values using keys (dict[key])
+- Built multiple dictionary examples (squad, sky, human)
+- Iterated through a dictionary using a loop
+
+### What I learned:
+- {} creates a dictionary (key-value structure)
+- dict[key] = value assigns data dynamically
+- Keys are unique identifiers used to retrieve values
+- Dictionaries model relationships, not just data
+- Looping through a dictionary allows structured output
+
+### Problems:
+- Confusion between [] and {}
+- Syntax errors while creating dictionaries
+- Misunderstood how dict[key] = value works at first
+- Needed help initially, then gradually became independent
+
+### Reflection:
+Started confused about what a dictionary even is.
+Ended up creating multiple versions from scratch with decreasing help.
+Understanding shifted from “random syntax” to “mapping relationships.”
+Still not perfect—but no longer unfamiliar.
