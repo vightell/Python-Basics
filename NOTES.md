@@ -204,3 +204,37 @@ Started confused about what a dictionary even is.
 Ended up creating multiple versions from scratch with decreasing help.
 Understanding shifted from “random syntax” to “mapping relationships.”
 Still not perfect—but no longer unfamiliar.
+
+--------
+
+## Day 9 — Looping Through Dictionaries
+
+### What I did:
+- Created a dictionary with key-value pairs (individual → trajectory)
+- Used a loop to go through the dictionary
+- Printed both key and value together in a readable sentence
+- Practiced `.items()` to access key and value at the same time
+- Improved naming (individual, role) instead of generic names
+
+### What I learned:
+- A dictionary stores relationships (key → value), not just data
+- `for key in dict:` loops through keys only
+- `dict[key]` is used to access the value of that key
+- `.items()` returns both key and value together
+- `for key, value in dict.items()` is the cleanest way to read both sides
+- Looping + dictionaries = structured output, not random prints
+
+### Problems:
+- Confusion between looping keys vs looping key-value pairs
+- Needed repetition to understand `dict[key]`
+- Slight hesitation with syntax and structure
+
+### Reflection:
+This wasn’t just looping.
+It was reading relationships.
+
+Instead of printing isolated values,
+I started printing meaning.
+
+The code now describes something,
+not just executes.
