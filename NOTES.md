@@ -238,3 +238,31 @@ I started printing meaning.
 
 The code now describes something,
 not just executes.
+
+--------
+## Day 10 — Filtering with Lists + Loops + Conditions
+
+### What I did:
+- Revisited the concept for the third time to strengthen understanding
+- Created a list of items (zoo)
+- Used a for loop to iterate through each element
+- Applied if / elif / else conditions inside the loop
+- Used len() to evaluate each item
+- Built a simple classification system based on rules
+
+### What I learned:
+- Lists store multiple values in one structure
+- Loops allow me to process each item automatically
+- Conditions inside loops create filtering logic
+- len() can be used to analyze data (like string length)
+- Code can evaluate and classify data, not just print it
+
+### Problems:
+- Logical rules were arbitrary (based only on length)
+- Realized conditions can work but still be meaningless
+- Slight confusion between creative logic vs useful logic
+
+### Reflection:
+This was my third time engaging with this concept, and it became clearer through repetition.
+Instead of just running code, I made it decide and classify.
+Even if the logic was simple, it showed me how code can filter reality.
