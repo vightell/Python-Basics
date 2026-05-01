@@ -266,3 +266,37 @@ not just executes.
 This was my third time engaging with this concept, and it became clearer through repetition.
 Instead of just running code, I made it decide and classify.
 Even if the logic was simple, it showed me how code can filter reality.
+
+---------
+
+## Day 11 — Functions with Logic
+
+### What I did:
+- Created my first function using def
+- Used input() to take user data (name + level)
+- Converted input to integer using int()
+- Built conditional logic inside a function (if / elif / else)
+- Called the function to execute it
+- Combined identity logic (name check) with numeric evaluation (level system)
+
+### What I learned:
+- def creates a reusable block of code (a system, not just lines)
+- Functions don’t run unless you call them
+- input() always returns a string → must convert to int() for numbers
+- Conditions inside functions behave the same as outside
+- Order of conditions matters (top-down execution)
+- You can separate logic (name vs level) into different decision layers
+
+### Problems:
+- Forgot indentation after defining function
+- Tried invalid syntax for ranges (level = (50-100))
+- Confused function parameters vs input inside function
+- Logic flow was mixed (name + level interfering)
+- Syntax errors from missing colons or incorrect comparisons
+
+### Reflection:
+Started chaotic, full of syntax errors and confusion.
+Ended with a working system that takes input, processes identity, and evaluates status.
+
+This wasn’t just “functions.”
+This was my first step into building structured decision systems.
