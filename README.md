@@ -11,7 +11,7 @@ It contains small scripts, experiments, and daily practice as I build consistenc
 - Day 3: If / else
 - Day 4: Lists & looping through 5 items
 
-Note: This repository was created on Day 4, so Days 1–3 are not included as files.
+Note: This repository was created on Day 4, so Days 1–4 are not included as files.
 
 ## How to run
 
