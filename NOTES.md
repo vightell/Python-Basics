@@ -300,3 +300,35 @@ Ended with a working system that takes input, processes identity, and evaluates 
 
 This wasn’t just “functions.”
 This was my first step into building structured decision systems.
+--------
+
+## Day 12 — Input & Processing
+
+### What I did:
+- Used input() to receive user choices (food + drink)
+- Stored inputs inside variables
+- Built multiple decision blocks (if / elif / else)
+- Processed different inputs separately (food logic + drink logic)
+- Created a multi-step interaction system
+- Customized outputs based on user responses
+
+### What I learned:
+- input() allows code to interact with the user (not static anymore)
+- Every input is a string by default
+- Conditions can be stacked to handle multiple possibilities
+- You can run multiple independent decision systems in one script
+- Code can simulate real conversations through structured logic
+- Order and clarity of conditions affect how the system behaves
+
+### Problems:
+- No major problems today
+- Minor awareness: exact input matching matters ("Apple" ≠ "apple")
+
+### Reflection:
+Today felt smooth and controlled.
+What I built wasn’t just input handling—it was a simple interaction system.
+
+The code now:
+waits → listens → processes → responds
+
+This is the first time it feels like the program is reacting to me, not just executing lines.
