@@ -1,6 +1,6 @@
 # Notes Log
 
----
+----
 
 ## Day 1 — Printing
 
