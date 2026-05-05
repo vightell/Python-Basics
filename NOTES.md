@@ -2,7 +2,7 @@
 
 ----
 
-## Day 1 — Printing
+## Day 1 — Printing.
 
 What I did:
 - Learned how to use print()
