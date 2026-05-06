@@ -332,3 +332,56 @@ The code now:
 waits → listens → processes → responds
 
 This is the first time it feels like the program is reacting to me, not just executing lines.
+
+--------
+## Day 13 — Simple Calculator
+
+### What I did:
+- Built a working calculator using:
+  - functions
+  - input
+  - if / elif / else
+  - float conversion
+- Added operations:
+  - addition
+  - subtraction
+  - multiplication
+  - division
+- Added looping with:
+  - while True
+- Added invalid operation handling
+- Attempted division protection logic
+- Built:
+  1. a guided version
+  2. a second version from memory alone
+- Customized the calculator with my own dialogue/personality
+
+### What I learned:
+- `float()` allows decimal numbers
+- `int()` only accepts whole numbers
+- Inputs are strings unless converted
+- Multiple concepts can combine into one system
+- `while True` creates continuous execution
+- Functions can hold full logic systems
+- Logic mistakes can still teach correct structure thinking
+- Order of conditions affects behavior
+
+### Problems:
+- Reversed division-by-zero logic accidentally
+- Slight confusion between:
+  - `num1 == 0`
+  - `num2 == 0`
+- Some invalid operation outputs while testing
+- Needed guidance for the first version before rebuilding independently
+
+### Reflection:
+Today stopped feeling like “small exercises.”
+
+The calculator felt like an actual system:
+input → decision → calculation → output.
+
+The second version mattered more than the first one because I rebuilt it from memory and understood most of the structure myself.
+
+The code also started developing personality instead of feeling robotic.
+
+This is the first day where coding felt less like isolated concepts and more like construction.
