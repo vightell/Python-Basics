@@ -84,8 +84,8 @@ Use a for loop to count from 1 to 20.
 - How to push code to GitHub using add → commit → push
 
 ### Reflection
-Started simple, ended up building a looping pattern system.
-Took time, but now I understand loops and Git workflow much better.
+Started simple, ended up building a looping pattern sstem.
+TTook time, but now I understand loops and Git workflow much better.
 
 --------
 
@@ -385,3 +385,49 @@ The second version mattered more than the first one because I rebuilt it from me
 The code also started developing personality instead of feeling robotic.
 
 This is the first day where coding felt less like isolated concepts and more like construction.
+-------
+## Day 14 — My Spoiled Meals Chaos Generator
+
+### What I did:
+- Built my first actual mini project from memory
+- Created a random cursed meal generator
+- Used lists to store meal options
+- Took user input and validated it
+- Used `while True` to keep the program running repeatedly
+- Added an exit system using `break`
+- Combined the user’s choice with 2 random foods
+- Learned and used the `random` module for the first time
+- Used `random.choice()` to generate unpredictable outputs
+- Rebuilt and fixed the project after accidentally sleeping mid-session
+
+### What I learned:
+- `import random` unlocks Python’s randomness tools
+- `random.choice(list)` picks one random item from a collection
+- Functions expect specific types of inputs
+- Variables must exist before conditions can check them
+- Placement inside loops changes behavior completely
+- Putting `input()` inside the loop allows repeated interaction
+- Infinite loops happen easily if logic placement is wrong
+- Debugging structural logic is different from fixing typos
+
+### Problems:
+- Accidentally created an infinite cursed meal loop
+- Confused variable placement and loop structure
+- Used `break` outside the correct loop scope
+- Fell asleep mid-project for 11 hours and woke up at line 1454 😭
+- Laptop almost died before the project was pushed
+- Needed guidance for some structural logic issues
+
+### Reflection:
+Today felt like my first real “project project,” not just exercises.
+
+The project was messy, chaotic, emotional, and full of debugging, but it became alive:
+user input → validation → randomness → repeated execution.
+
+I also touched randomness for the first time, which made the program feel less static and more unpredictable.
+
+The biggest thing I realized:
+building projects is not about writing perfect code from memory.
+It’s about struggling through structure, fixing logic, and still finishing.
+
+This project feels like the first time coding started becoming personal instead of just educational.
