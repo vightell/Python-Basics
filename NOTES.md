@@ -384,7 +384,8 @@ The second version mattered more than the first one because I rebuilt it from me
 
 The code also started developing personality instead of feeling robotic.
 
-This is the first day where coding felt less like isolated concepts and more like construction.
+This is the first day coding felt less like isolated concepts and more like construction. 
+
 -------
 ## Day 14 — My Spoiled Meals Chaos Generator
 
