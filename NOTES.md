@@ -432,3 +432,52 @@ building projects is not about writing perfect code from memory.
 It’s about struggling through structure, fixing logic, and still finishing.
 
 This project feels like the first time coding started becoming personal instead of just educational.
+
+--------
+
+## Day 15 — Python Touches The Internet
+
+### What I did:
+- Installed the `requests` library
+- Installed `beautifulsoup4`
+- Fixed my VS Code Python environment after realizing it was partially broken since early days
+- Reinstalled Python correctly and repaired interpreter integration
+- Fixed autocomplete, IntelliSense, package recognition, and run stability
+- Learned the difference between terminal commands and Python code
+- Successfully made Python send its first request to a website
+- Printed a real HTTP status code from a live webpage
+
+### What I learned:
+- Libraries are prebuilt code/toolboxes made by other programmers
+- `import requests` gives Python internet communication abilities
+- `requests.get(url)` sends a request to a website
+- Websites answer with a response object
+- `response.status_code` shows how the website responded
+- HTTP status codes represent different outcomes:
+  - `200` = success
+  - `404` = page not found
+  - `403` = forbidden
+  - `400` = bad request
+- `BeautifulSoup` is used to organize and extract information from website HTML
+- Terminal commands (`pip install`) are different from Python code
+- Real coding is understanding logic and systems, not memorizing every exact line
+
+### Problems:
+- Accidentally wrote `pip install requests` inside the Python file instead of the terminal 😭
+- Misspelled `beautifulsoup4` multiple times
+- Discovered my VS Code environment had been partially broken for almost the entire learning journey
+- Spent nearly 4 hours fixing environment/integration issues
+- Felt confused after autocomplete and suggestions suddenly started working properly
+
+### Reflection:
+Today felt like crossing a border.
+
+Before today, my code only interacted with my own laptop and local logic.
+Now Python can communicate with websites and external systems.
+
+I also realized I had been coding in “survival mode” this whole time because my VS Code environment was broken, which accidentally forced me to rely heavily on memory and raw understanding.
+
+The sudden appearance of autocomplete and smart suggestions felt strange, almost like cheating, but I realized real programming is not about memorizing every character manually.
+It is about understanding systems, logic, structure, and knowing what you are trying to build.
+
+This feels like the end of the pure basics phase and the beginning of real-world interaction.
