@@ -481,3 +481,44 @@ The sudden appearance of autocomplete and smart suggestions felt strange, almost
 It is about understanding systems, logic, structure, and knowing what you are trying to build.
 
 This feels like the end of the pure basics phase and the beginning of real-world interaction.
+
+-------
+
+## Day 16 — Fetching A Website & Seeing Raw HTML
+
+### What I did:
+- Used `requests.get()` to fetch a real webpage
+- Printed the website’s raw HTML using `response.text`
+- Learned what HTML actually looks like underneath a normal webpage
+- Learned the difference between frontend and backend systems
+- Understood that websites send structured responses to browsers and requests
+- Realized scraping starts by downloading webpage content first
+
+### What I learned:
+- `response.text` contains the raw webpage content
+- HTML is the structure/skeleton of a webpage
+- Websites are layered systems:
+  - frontend = public visible structure
+  - backend = private server-side logic
+- Requests only receive what the website chooses to send publicly
+- Frontend code is accessible because browsers need it
+- Backend systems stay hidden for security reasons
+- Websites operate through request → response communication
+- Scraping is basically:
+  - fetch webpage
+  - inspect structure
+  - extract useful information
+
+### Problems:
+- None
+
+### Reflection:
+Today felt different because I stopped seeing websites as magical interfaces and started seeing them as structured systems.
+
+The biggest realization:
+when visiting a website, I am not accessing the hidden backend itself.
+I am receiving the frontend structure generated and sent by the server.
+
+Printing HTML felt strange at first because it looked chaotic and unreadable, but I realized this is the raw layer underneath modern websites.
+
+This was my first real look behind the curtain of the internet.
