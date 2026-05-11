@@ -522,3 +522,45 @@ I am receiving the frontend structure generated and sent by the server.
 Printing HTML felt strange at first because it looked chaotic and unreadable, but I realized this is the raw layer underneath modern websites.
 
 This was my first real look behind the curtain of the internet.
+
+--------
+
+## Day 17 — Extracting Website Titles & Paragraphs
+
+### What I did:
+- Used requests to fetch a webpage
+- Used BeautifulSoup to parse HTML
+- Extracted h1 tags from a website
+- Extracted p tags from a website
+- Printed readable text using .text
+- Explored how websites are structured internally
+- Accidentally entered Git timeline surgery and survived somehow 
+
+### What I learned:
+- HTML pages are structured using tags
+- h1 usually represents a main title/header
+- p represents paragraph text
+- BeautifulSoup turns messy HTML into searchable structured data
+- .find() searches for the first matching HTML tag
+- .text extracts only the readable content from HTML elements
+- Websites expose frontend structure publicly, not backend logic
+- Git commits are snapshots, not single-file uploads
+
+### Problems:
+- Mixed up Day 16 and Day 17 commit messages
+- Accidentally rewrote the wrong commit during rebase
+- Got trapped inside Git log viewer with `(END)` like a cursed terminal dungeon
+- Minor confusion between fetching raw HTML vs extracting specific elements
+
+### Reflection:
+Today felt like the first real “scraping” day instead of just setup.  
+The internet stopped looking like random chaos and started looking structured.  
+
+I also accidentally discovered that Git is less of a tool and more of a timeline manipulation ritual designed by exhausted software shamans.  
+
+Despite the chaos, I now understand the difference between:
+- downloading a webpage
+- parsing its structure
+- extracting specific information
+
+Which is a massive shift from just printing things in Python.
