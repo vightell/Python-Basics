@@ -564,3 +564,44 @@ Despite the chaos, I now understand the difference between:
 - extracting specific information
 
 Which is a massive shift from just printing things in Python.
+
+-------
+
+## Day 18 — Extracting Links (<a>) and Attributes
+
+### What I did:
+- Used requests to fetch a webpage
+- Used BeautifulSoup to parse HTML
+- Extracted the first <a> tag from a website
+- Printed the full link element
+- Printed the visible text inside the link using .text
+- Learned how to extract href values from links
+- Experimented with a real website instead of only example.com
+
+### What I learned:
+- <a> tags represent links in HTML
+- .find("a") finds the first link on a webpage
+- .text extracts the human-readable text inside a tag
+- HTML tags can contain attributes
+- Attributes are extra information attached to tags
+- href is an attribute that stores the destination URL
+- link["href"] extracts the href value from a link
+- Different websites return different HTML structures and outputs
+
+### Problems:
+- Confusion about what attributes actually are
+- Expected the exact same output as the tutorial/example
+- Temporary confusion because the website returned internal links like #content instead of full URLs
+
+### Reflection:
+Today the web stopped looking like static text and started looking like connected pathways.
+
+I learned that:
+- tags are objects
+- attributes are properties/details attached to them
+- links contain hidden destinations, not just visible text
+
+The biggest realization was that scraping is dynamic.
+The same code behaves differently depending on the website structure.
+
+I also started understanding that websites are basically giant structured systems made from connected components, not magical floating pages.
