@@ -778,3 +778,113 @@ Telegram bots.
 This no longer feels like fantasy learning.
 
 It feels real now.
+
+## Day 21 — Hacker News Final Scraping Project
+
+### What I did:
+- Scraped Hacker News using requests and BeautifulSoup
+- Parsed the website HTML using html.parser
+- Used find_all() to target article containers
+- Learned that some tags are nested inside other tags
+- Extracted article titles and links from nested HTML structure
+- Stored scraped data inside dictionaries
+- Appended dictionaries into a list
+- Printed the scraped results
+- Saved scraped data into a text file using with open()
+- Used str() when writing dictionaries into a file
+- Finished and pushed the final project to GitHub
+
+---
+
+### What I learned:
+- Websites have different HTML structures
+- HTML tags can contain other tags inside them
+- A <span> can contain an <a> tag
+- Sometimes you must search inside a container tag to find the real target
+- find_all() gives multiple elements, while find() searches inside one element
+- Real scraping is adapting to the structure of each website
+- Dictionaries are useful for organizing scraped data cleanly
+- with open() creates persistent storage instead of temporary terminal output
+- str() is needed because file.write() only accepts strings
+- Confusion during projects is normal because multiple systems interact together
+
+---
+
+### New concepts encountered:
+- Nested HTML structure
+- Parent-child relationships between tags
+- titleline span containers
+- Defensive extraction logic:
+  
+  if links else None
+
+- Structured storage using dictionaries inside lists
+- Persistence through file saving
+
+---
+
+### Problems:
+- Confusion about how span and a tags were connected
+- Needed to inspect Hacker News structure carefully
+- Mixed up containers and inner tags at first
+- Doubted my understanding during the project
+- Spent around 3 hours debugging and figuring out structure
+- Felt mentally squeezed by the amount of interacting concepts
+- Had moments where I felt “dumb” because the project looked simple externally
+
+---
+
+### Debugging discoveries:
+- HTML structure matters more than memorizing syntax
+- Websites are not identical; scraper logic changes depending on structure
+- Printing outputs repeatedly helps reveal what the scraper is actually grabbing
+- Small structural misunderstandings can break extraction logic
+- Projects expose understanding gaps much harder than isolated lessons
+
+---
+
+### Reflection:
+This project felt simple on the surface but mentally intense underneath.  
+Today was the first time scraping felt like actual engineering instead of following isolated examples.
+
+I realized that my confusion was not because I was incapable, but because multiple systems were colliding together:
+- HTML hierarchy
+- loops
+- dictionaries
+- extraction logic
+- storage
+- debugging
+- nested structures
+
+I learned new code while building the project itself, not before it.
+
+The hardest part wasn’t syntax.  
+It was understanding relationships inside the webpage structure.
+
+At some points I genuinely doubted myself and felt behind theoretically, especially when I realized I didn’t fully understand that span and a tags could work together structurally.
+
+But despite the confusion, I stayed.
+I debugged.
+I adapted.
+I finished.
+I pushed the project anyway.
+
+This is my final day of basic web scraping.
+
+21 days ago I barely understood Python basics.
+
+Now I can:
+- scrape websites
+- extract structured data
+- store it
+- save it
+- debug logic
+- adapt to website structure
+- build a complete scraping pipeline
+
+The project was chaotic, exhausting, and messy.
+
+But it worked.
+
+And honestly?
+That makes it feel real.
