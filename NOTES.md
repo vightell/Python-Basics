@@ -888,3 +888,123 @@ But it worked.
 
 And honestly?
 That makes it feel real.
+
+## Day 22–25 — Telegram Bot Foundations (Compressed Session)
+
+### What I did:
+- Created my first Telegram bot using BotFather
+- Learned how Telegram bots are registered and connected
+- Received and stored my bot token
+- Installed python-telegram-bot library
+- Connected Python to Telegram infrastructure
+- Created a basic Telegram bot script
+- Made the bot reply with “hello”
+- Made the bot respond to commands
+- Tested the bot live through Telegram
+- Ran the bot through VS Code and terminal
+- Compressed four planned days into one session
+
+---
+
+### What I learned:
+- Telegram bots communicate through APIs
+- BotFather acts like Telegram’s bot management system
+- The bot token is authentication between my code and Telegram
+- python-telegram-bot allows Python to interact with Telegram servers
+- Bots work through handlers and commands
+- A command like /hello maps to a specific Python function
+- Telegram bots are event-driven systems
+- My code can now interact with humans in real time through messaging
+- APIs are basically communication bridges between systems
+
+---
+
+### New concepts encountered:
+- BotFather
+- API tokens
+- python-telegram-bot library
+- CommandHandler
+- ApplicationBuilder
+- update.message.reply_text()
+- Event-driven logic
+- Command-based interaction systems
+- Telegram infrastructure
+
+---
+
+### Problems:
+- Felt overwhelmed because multiple concepts stacked together
+- Felt mentally tired after compressing several phases
+- Needed time to mentally process system integration concepts
+- Felt resistance near the end of the session before phases 26–27
+
+---
+
+### Debugging / Understanding discoveries:
+- Telegram bots are less “magic” and more structured communication systems
+- The bot itself is not intelligent; it only reacts to programmed commands
+- Commands are basically condition-action systems in another form
+- The terminal, VS Code, Telegram, and APIs all connect together as one workflow
+- The laptop remains the real development environment while the phone acts mostly as a testing interface
+- Real coding often means connecting systems together, not memorizing syntax
+
+---
+
+### Systems Thinking:
+Today was my first major exposure to interconnected systems.
+
+The architecture now looks like:
+
+Telegram ↔ API ↔ Python ↔ My Code
+
+Instead of isolated scripts, my programs are beginning to communicate externally.
+
+This shifted coding from:
+- “small local exercises”
+
+to:
+- “connected infrastructure”
+
+---
+
+### Reflection:
+This session felt very different psychologically from previous scraping lessons.
+
+The scraping phase felt like:
+- extracting information
+- understanding website structure
+- processing data
+
+Today felt like:
+- connecting systems
+- creating infrastructure
+- building communication pathways
+
+I compressed four days into one because spreading them separately felt artificially slow at my current level.
+
+I completed:
+- bot creation
+- installation
+- hello replies
+- command handling
+
+all in one session.
+
+By the end, I felt mentally saturated and didn’t want to continue into phases 26–27.
+
+But looking back, it feels more like cognitive overload than avoidance.
+
+Today made coding feel much more “real” because my code now interacts with an actual messaging platform used by real people.
+
+A few weeks ago I was printing basic Python lines.
+
+Now:
+- my code communicates with Telegram servers
+- responds to commands
+- interacts live through a messaging app
+
+That realization feels strange, exciting, and slightly intimidating at the same time.
+
+The systems are becoming bigger now.
+
+But so is my ability to handle them.
