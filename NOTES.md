@@ -1008,3 +1008,164 @@ That realization feels strange, exciting, and slightly intimidating at the same 
 The systems are becoming bigger now.
 
 But so is my ability to handle them.
+
+--------
+
+## Day 26–27 — Connecting Scraper to Telegram Bot + Sending Scraped Data
+
+### What I did:
+- Connected my Telegram bot to my web scraper
+- Imported requests, BeautifulSoup, and telegram libraries together
+- Built a scraper function that fetches Hacker News articles
+- Parsed HTML using BeautifulSoup
+- Extracted article titles and links
+- Stored scraped data inside dictionaries
+- Returned scraped data as a list
+- Created Telegram bot commands:
+  - /hi
+  - /news
+  - /chaos
+  - /abyss
+- Connected commands using CommandHandler
+- Made the bot send scraped Hacker News articles directly into Telegram
+- Formatted scraped output cleanly inside Telegram messages
+- Added pagination logic using current_index
+- Made the bot remember where the next batch of articles starts
+- Sent 5 articles at a time instead of flooding the chat
+- Added fallback logic when no articles are found
+- Structured the code into sections:
+  - SCRAPER
+  - COMMANDS
+  - APP
+- Accidentally completed both Day 26 and Day 27 together
+- Spent around 5 hours building and debugging the system
+- Pushed the project to GitHub as Day 26
+
+---
+
+### What I learned:
+- Separate systems can be connected into one workflow
+- A scraper can feed data directly into a Telegram bot
+- APIs allow communication between programs and platforms
+- Telegram bots operate through commands and handlers
+- Functions can return structured data for other systems to use
+- Dictionaries are useful for storing complex scraped information
+- Formatting matters when displaying information to users
+- Pagination prevents information overload
+- Global variables can maintain state across function calls
+- Integration work is much harder mentally than isolated lessons
+
+---
+
+### New concepts encountered:
+- System integration
+- Telegram API communication
+- CommandHandler architecture
+- State management
+- Pagination logic
+- Structured output formatting
+- Global variables
+- Interoperability
+- Automation pipelines
+- Real-time information delivery
+
+---
+
+### Problems:
+- Felt intense resistance before starting
+- Wanted to procrastinate and hide from the task
+- Thought Day 26 was only “connecting systems”
+- Accidentally completed Day 27 too because the tasks overlapped
+- Spent several hours debugging and mentally untangling the systems
+- Cognitive overload from handling multiple moving parts together
+- Fear and exhaustion during integration
+- Accidentally leaked bot token and had to revoke it immediately
+
+---
+
+### Debugging / Understanding discoveries:
+- “Connecting systems” naturally leads into sending data between them
+- Integration work creates much heavier cognitive load than isolated coding tasks
+- Real coding often means combining multiple tools at once
+- One solved problem often cascades into another automatically
+- The bot became far easier to understand after seeing the full pipeline work
+- Pagination logic changes user experience significantly
+- Clean structure makes projects easier to read and debug
+- State management allows programs to “remember” information temporarily
+
+---
+
+### Systems Thinking:
+Today was my first real experience building an interconnected automation pipeline.
+
+The architecture became:
+
+Website
+↓
+requests
+↓
+BeautifulSoup
+↓
+Python Logic
+↓
+Telegram Bot
+↓
+Phone
+
+This was no longer:
+- isolated exercises
+- syntax drills
+- tiny scripts
+
+This became:
+- communication systems
+- automation flow
+- infrastructure logic
+
+I built a system that:
+- collects information
+- processes it
+- formats it
+- delivers it automatically
+
+---
+
+### Reflection:
+Today mentally felt chaotic and exhausting.
+
+Before starting, I genuinely wanted to:
+- avoid the work
+- procrastinate
+- hide from the session completely
+
+But I started anyway.
+
+During the project, I thought I was only doing “Day 26,” but because the systems naturally overlapped, I accidentally completed both Day 26 and Day 27 together.
+
+At first this frustrated me because I thought I had unintentionally done extra work due to misunderstanding the task structure.
+
+But looking back, that happened because my brain naturally continued the pipeline logically:
+- if the scraper connects to the bot,
+- then obviously the bot should send the scraped data.
+
+That realization itself shows growth.
+
+Today was one of the first times coding truly felt like engineering instead of isolated learning.
+
+I wasn’t just writing syntax anymore.
+
+I was managing:
+- architecture
+- communication
+- formatting
+- logic flow
+- user interaction
+- state
+- debugging
+- system behavior
+
+And despite feeling overwhelmed, resistant, and mentally exhausted…
+
+I still built the system successfully.
+
+That matters.
