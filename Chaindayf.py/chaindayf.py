@@ -1,0 +1,1 @@
+print("Today is a forced sidetrack, I hope it doesn't last longer.")
